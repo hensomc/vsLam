@@ -1,0 +1,30 @@
+Nastran BUFFSIZE=8193 $(c:/msc.software/msc_nastran_student_edition/2014/nastran/conf/nast20140.rcf[2])
+JID='C:\Users\hensomc\Documents\MATLAB\vs_lam\vs_lam_working\plate_fem.bdf'
+OUT='./plate_fem'
+MEM=26214400      $ WORDS
+MACH='Intel'
+OPER='Windows 7 Professional'
+OSV='6.1 7601'
+MODEL='P5-4/4715 (hensomc-HP)'
+NPROC='12'
+CONFIG=15
+NPROC=12
+symbol=DELDIR='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/nast/del' $(program default)
+symbol=DEMODIR='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/nast/demo' $(program default)
+symbol=SSSALTERDIR='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/nast/sssalter' $(program default)
+symbol=TPLDIR='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/nast/tpl' $(program default)
+SDIR='c:/scratch/plate_fem.T13504_52'
+DBS='c:/scratch/plate_fem.T13504_52'
+SCR='yes'
+SMEM=100
+BPOOL=150
+NEWDEL='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/win64i4/SSS'
+DEL='MSCDEF'
+DML=MSCDEF
+SDL=MSCDEF
+AUTH='EDU'
+AUTHQUE=20
+MSGCAT='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/win64i4/analysis.msg'
+MSGDEST='f06'
+PROG=EDU
+NEWS='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/nast/news.txt'

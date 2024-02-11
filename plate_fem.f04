@@ -1,0 +1,497 @@
+1
+ MACHINE                          MODEL                 OPERATING SYSTEM       MSC Nastran       BUILD DATE         RUN DATE
+ Intel                            P5-4/4715 (hensomc-H  Windows 7 Professional VERSION 2014.0.0  NOV 13, 2014       AUG 10, 2016
+
+ 
+                               ===    M S C   N a s t r a n           E X E C U T I O N   S U M M A R Y    ===
+
+ Day_Time  Elapsed     I/O_Mb      Del_Mb     CPU_Sec    Del_CPU    Subroutine
+ 
+ 23:40:07     0:00        0.0         0.0         0.0        0.0    SEMTRN   BGN
+ 23:40:07     0:00        0.0         0.0         0.0        0.0    SEMTRN   END
+ 23:40:07     0:00        0.0         0.0         0.0        0.0    DBINIT   BGN
+      ** CURRENT PROJECT ID = ' "BLANK" '  ** CURRENT VERSION ID =          1
+
+     S U M M A R Y   O F   F I L E   A S S I G N M E N T   F O R   T H E   P R I M A R Y   D A T A B A S E     ( DBSNO   1, V2014.0 )
+
+    ASSIGNED PHYSICAL FILE NAME (/ORIGINAL)      LOGICAL NAME     DBSET        STATUS    BUFFSIZE     CLUSTER SIZE      TIME STAMP
+    ---------------------------------------      ------------     -----        ------    --------     ------------     ------------
+    c:/scratch/plate_fem.T1972_7.MASTER          MASTER           MASTER       NEW           8193           1          160810234007
+    c:/scratch/plate_fem.T1972_7.DBALL           DBALL            DBALL        NEW           8193           1          160810234008
+    c:/scratch/plate_fem.T1972_7.OBJSCR          OBJSCR           OBJSCR       NEW           8193           1          160810234009
+               **** MEM FILE ****                * N/A *          SCRATCH 
+    c:/scratch/plate_fem.T1972_7.SCRATCH         SCRATCH          SCRATCH      NEW           8193           1          160810234010
+    c:/scratch/plate_fem.T1972_7.SCR300          SCR300           SCRATCH      NEW           8193           1          160810234011
+ 23:40:07     0:00        0.0         0.0         0.0        0.0    DBINIT   END
+ 23:40:07     0:00        0.0         0.0         0.0        0.0    XCSA     BGN
+
+     S U M M A R Y   O F   F I L E   A S S I G N M E N T   F O R   T H E   D E L I V E R Y   D A T A B A S E   ( DBSNO   2, V2014.0 )
+
+    ASSIGNED PHYSICAL FILE NAME (/ORIGINAL)      LOGICAL NAME     DBSET        STATUS    BUFFSIZE     CLUSTER SIZE      TIME STAMP
+    ---------------------------------------      ------------     -----        ------    --------     ------------     ------------
+    c:/msc.software/.../win64i4/SSS.MASTERA      MASTERA          MASTER       OLD           8193           1          141113230451
+   /./sss.MASTERA                           
+    c:/msc.software/.../win64i4/SSS.MSCOBJ       MSCOBJ           MSCOBJ       OLD           8193           1          141113230456
+   /./sss.MSCOBJ                            
+    c:/msc.software/.../win64i4/SSS.MSCSOU       MSCSOU           MSCSOU       OLD           8193           1          141113230457
+   /./sss.MSCSOU                            
+ 23:40:07     0:00        4.0         4.0         0.1        0.1    XCSA     END
+ 23:40:07     0:00        4.0         0.0         0.1        0.0    CGPI     BGN
+ 23:40:07     0:00        4.0         0.0         0.1        0.0    CGPI     END
+ 23:40:07     0:00        4.0         0.0         0.1        0.0    LINKER   BGN
+ 23:40:07     0:00       36.0        32.0         0.1        0.0    LINKER   END
+ 
+     S U M M A R Y   O F   F I L E   A S S I G N M E N T   F O R   T H E   I F P   D A T A B A S E S
+ 
+    ASSIGNED PHYSICAL FILE NAME                                   LOGICAL   DBSNO  STATUS   ACCESS   RECL     FORM    MODE        
+    ------------------------------------------------------------  --------  -----  -------  ------  -------  ------  -----       
+    c:/scratch/plate_fem.T1972_7.IFPDAT                           IFPDAT        1   NEW      DIRECT    4096   UNFMTD   R/W            
+    c:/msc.software/.../2014/nastran/msc20140/win64i4/SSS.IFPSDL  IFPSDL      N/A   OLD      DIRECT    1024   UNFMTD   R/O            
+    c:/msc.software/.../2014/nastran/msc20140/win64i4/SSS.IFPDML  IFPDML      N/A   OLD      SEQ        N/A   FMTD     R/O            
+
+                    S U M M A R Y   O F   P H Y S I C A L   F I L E   I N F O R M A T I O N
+
+    ASSIGNED PHYSICAL FILE NAME                                   RECL (BYTES)  MODE  FLAGS  WSIZE  (WNUM)
+    ------------------------------------------------------------  ------------  ----  -----  -------------
+    c:/scratch/plate_fem.T1972_7.SCRATCH                                 32768   R/W  M         128KB ( 4)
+    c:/scratch/plate_fem.T1972_7.OBJSCR                                  32768   R/W  M         128KB ( 4)
+    c:/scratch/plate_fem.T1972_7.MASTER                                  32768   R/W  M         128KB ( 4)
+    c:/scratch/plate_fem.T1972_7.DBALL                                   32768   R/W  M         128KB ( 4)
+    c:/scratch/plate_fem.T1972_7.SCR300                                  32768   R/W  M         128KB ( 4)
+    c:/msc.software/.../nastran/msc20140/win64i4/SSS.MASTERA             32768   R/O           N/A        
+    c:/msc.software/.../2014/nastran/msc20140/win64i4/SSS.MSCOBJ         32768   R/O           N/A        
+
+    FLAG VALUES ARE --
+      A   ASYNCHRONOUS I/O USED TO PROCESS FILE
+      B   BUFFERED I/O USED TO PROCESS FILE
+      M   FILE MAPPING USED TO PROCESS FILE
+      R   FILE BEING ACCESSED IN 'RAW' MODE
+ 
+    ASSIGNED PHYSICAL FILE NAME                                   LOGICAL   UNIT  STATUS   ACCESS   RECL  FORM    FLAGS
+    ------------------------------------------------------------  --------  ----  -------  ------  -----  ------  -----
+    ./plate_fem.f04                                               LOGFL        4  NEW      SEQ      N/A   FMTD         
+    ./plate_fem.f06                                               PRINT        6  NEW      SEQ      N/A   FMTD         
+    c:/msc.software/.../2014/nastran/msc20140/nast/news.txt       INCLD1       9  OLD      SEQ      N/A   FMTD      R N
+    ./plate_fem.plt                                               PLOT        14  NEW      SEQ      N/A   UNFMTD   Z   
+    ./plate_fem.op2                                               OP2         12  NEW      SEQ      N/A   UNFMTD   Z   
+    ./plate_fem                                                   OPCASE      22  UNKNOWN  SEQ      N/A   FMTD        N
+    ./plate_fem                                                   OUTPUT2F    19           SEQ      N/A   UNFMTD      P
+    ./plate_fem.des                                               TOPDES      21  UNKNOWN  SEQ      N/A   FMTD        N
+    ./plate_fem.mnf                                               MNF             NEW      SEQ      N/A   UNFMTD       
+    ./plate_fem.pch                                               PUNCH        7  NEW      SEQ      N/A   FMTD     Z   
+    ./plate_fem.xdb                                               DBC         40  NEW      DIRECT   1024  UNFMTD       
+    ./plate_fem.asm                                               ASM         16  NEW      SEQ      N/A   FMTD     Z   
+    ./plate_fem.becho                                             BULKECHO    18  NEW      SEQ      N/A   FMTD     Z   
+    ./plate_fem.aeso                                              AESO        23  NEW      SEQ      N/A   FMTD     Z   
+
+    FLAG VALUES ARE --
+      A   FILE HAS BEEN DEFINED BY AN 'ASSIGN' STATEMENT
+      D   FILE IS TO BE DELETED BEFORE RUN, IF IT EXISTS
+      N   'DEFER' SPECIFIED ON 'ASSIGN' STATEMENT OR FORCED FOR 'SLAVE' PROCESSES
+      P   PREFIX FILE NAME FOR OUTPUT2F FILE(S)
+      R   FILE IS READ-ONLY
+      T   FILE IS TEMPORARY AND WILL BE DELETED AT END OF RUN
+      Z   FILE WILL BE DELETED AT END OF RUN IF ZERO-LENGTH
+
+    ** THE NATIVE MODE FOR SEQUENTIAL UNFORMATTED FILES ON THIS PLATFORM IS LITTLE-ENDIAN (LTLEND)
+
+    ** PHYSICAL FILES LARGER THAN 2GB ARE SUPPORTED ON THIS PLATFORM
+ 
+0    ** MASTER DIRECTORIES ARE LOADED IN MEMORY.
+        USER OPENCORE (HICORE)         =    22825836  WORDS
+        EXECUTIVE SYSTEM WORK AREA     =      940215  WORDS
+        MASTER(RAM)                    =      200000  WORDS
+        SCRATCH(MEM) AREA              =      819300  WORDS (     100 BUFFERS)
+        BUFFER POOL AREA (BPOOL4)      =     1229050  WORDS (     150 BUFFERS)
+
+        TOTAL MSC NASTRAN MEMORY LIMIT =    26214400  WORDS
+
+
+ Day_Time  Elapsed     I/O_Mb      Del_Mb     CPU_Sec    Del_CPU    SubDMAP Line (S)SubDMAP/Module
+ 
+ 23:40:07     0:00       39.0         3.0         0.2        0.0    XSEMDR   BGN
+ 23:40:07     0:00       39.0         0.0         0.2        0.0    SESTATIC37   (S)IFPL    BEGN    
+ 23:40:07     0:00       39.0         0.0         0.2        0.0    IFPL    61      IFP1    BEGN    
+ 23:40:07     0:00       39.0         0.0         0.2        0.0    IFPL    199  (S)IFPSTAR BEGN    
+ 23:40:07     0:00       39.0         0.0         0.2        0.0    IFPSTAR 14      DBDELETEBEGN    
+ 23:40:07     0:00       39.0         0.0         0.2        0.0    IFPSTAR 16      NEWIFP  BEGN    
+ *** USER INFORMATION MESSAGE 200 (SCA.MDSolver.System.MemoryManager.MemoryManager::addPartition)
+A memory pool is provided by the application.
+Information: the application provided memory pool NastranMainPool will be used by the MDSolver service partition MDS00000.
+ *** SYSTEM INFORMATION MESSAGE 108 (SCA.MDSolver.Io.AccessAccess.AccessAccess)
+     The service SCA.MDSolver.Io.AccessAccess.AccessAccess has a partition name MDS00000 of size 600,000 bytes
+ *** USER INFORMATION MESSAGE 217 (SCA.MDSolver.Io.AccessAccess.AccessAccess::initPagingPool)
+     Static  working area for sdl : 100,000 INTEGER words, 400,000 bytes.
+ Dynamic working area for dbio: 424,274 INTEGER words, 1,697,096 bytes.
+ *** USER INFORMATION MESSAGE 218 (SCA.MDSolver.Io.AccessAccess.AccessAccess::initPagingPool)
+     AccessAccess service dbio paging pool initialized with maxbuf=4096 and maxddl=111504015
+ *** USER INFORMATION MESSAGE 207 (SCA.MDSolver.Io.AccessAccess.AccessAccess::StreamToBinary)
+     The stream input file: C:\Users\hensomc\Documents\MATLAB\vs_lam\vs_lam_working\plate_fem.bdf 
+with include files path: . 
+was converted to its binary form in: c:/scratch/plate_fem.T1972_7.IFPDAT 
+using the schema contained in: c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/win64i4/SSS.IFPSDL for product: NASTRAN, version: 2014.0
+ *** USER INFORMATION MESSAGE 204 (SCA.MDSolver.Io.AccessAccess.AccessAccess::StreamToBinary)
+     An ECHO SORT request was found in the input file C:\Users\hensomc\Documents\MATLAB\vs_lam\vs_lam_working\plate_fem.bdf
+ *** USER INFORMATION MESSAGE 200 (SCA.MDSolver.System.MemoryManager.MemoryManager::addPartition)
+A memory pool is provided by the application.
+Information: the application provided memory pool NastranMainPool will be used by the MDSolver service partition MDS00001.
+ *** SYSTEM INFORMATION MESSAGE 205 (SCA.MDSolver.Util.QueryAccess.QueryAccess)
+The service SCA.MDSolver.Util.QueryAccess.QueryAccess has a partition name MDS00001 of size 65,536 bytes
+ *       COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY   *
+ *         100:CQUAD4           121:GRID               1:LOAD               1:MAT1               1:MAT8               2:PARAM   
+ *           1:PCOMP              1:PLOAD2             1:SPC1               1:SPCADD  
+ 23:40:08     0:01       39.0         0.0         0.3        0.1    IFPSTAR 16      NEWIFP  END     
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 28      IFPDR   BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 45      XSORT   BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 53      COPY    BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 54      COPY    BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 55      COPY    BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 56      COPY    BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 59      IFP     BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFP     
+ *       COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY     *
+ *           2:PARAM   
+ *    PARAM:  NOCOMPS   POST                                                                                                      *
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 60      SORTBULKBEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 61      SORTBULKBEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 62      SORTBULKBEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 63      SORTBULKBEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 84      MATGEN  BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 92      IFPEXTRABEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPSTAR 100     DBEQUIV BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPL    200     DBEQUIV BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPL    333  (S)IFPS    BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS    84      IFPLC   BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS    86      PVT     BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS    166     IFP6    BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFP6IN  
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFP6OUT 
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS    211     MODGM2  BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS    247     M3DCONT1BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS    292     DSGRDM  BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS    306     GP1     BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS    362     DYNCXPNTBEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS    375  (S)TESTBIT BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS    478     DBEQUIV BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPL    344     SEPR1   BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPL    384     PROJVER BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPL    389     PVT     BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPL    423     PVT     BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPL    434  (S)IFPS1   BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS1   15      SOLVIT  BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS1   23      DTIIN   BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS1   55      PLTSET  BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS1   58      MSGHAN  BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS1   59      MSGHAN  BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS1   60      GP0     BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS1   61      MSGHAN  BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPS1   108     DSGRDM  BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPL    437  (S)TESTBIT BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    IFPL    475     DTIIN   BEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    SESTATIC40      HADAPARMBEGN    
+ 23:40:08     0:01       39.0         0.0         0.3        0.0    SESTATIC70   (S)PHASE0  BEGN    
+ 23:40:08     0:01       40.0         1.0         0.3        0.0    PHASE0  108  (S)TESTBIT BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  113     PVT     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  115     PROJVER BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  117     PROJVER BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  144     DTIIN   BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  168  (S)TESTBIT BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  169  (S)TESTBIT BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  170  (S)TESTBIT BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  171  (S)TESTBIT BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  172  (S)TESTBIT BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  207     SEPR1   BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  371     COPY    BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  372  (S)PBULK   BEGN    
+ 23:40:08     0:01       40.0         0.0         0.3        0.0    PHASE0  374     SEP1X   BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  409     GP1     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  414     GP2     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  488     TA1     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  489     TASNP2  BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  494     SEP1    BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  518     DBC     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  536     DBC     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  599     TABPRT  BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  600     SEP3    BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  800     PVT     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  889     PVT     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  891     PVT     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1322 (S)DMPGROUPBEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    DMPGROUP17   (S)TESTBIT BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1501 (S)SETQ    BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1509 (S)PHASE0R BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0R 154     MRGCSTM BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0R 186     GP2     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0R 214     GPJAC   BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0R 258     GP3     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0R 262     LCGEN   BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1553    VECPLOT BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1652    BCDR    BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1657    CASE    BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1659    PVT     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1742    GP4     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1871    MATGEN  BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1872    APPEND  BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1925    BCDR    BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1983 (S)SELA1   BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  1985    UPARTN  BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  2110    DBC     BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  2212    DBDELETEBEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  2214 (S)TRMCDRA BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    PHASE0  2273    MKCSTMA BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    SESTATIC104  (S)SETQ    BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    SESTATIC107     MATGEN  BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    SESTATIC108     RESTART BEGN    
+ Data block TEMPALL  has changed.
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    SESTATIC110     SORTCASEBEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    SESTATIC118     DTIIN   BEGN    
+ 23:40:08     0:01       40.0         0.0         0.4        0.0    SESTATIC153  (S)PHASE1DRBEGN    
+ 23:40:08     0:01       41.0         1.0         0.4        0.0    PHASE1DR165     PVT     BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1DR267  (S)SETQ    BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1DR296  (S)DBSETOFFBEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1DR298  (S)PHASE1A BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 53      SEPR1   BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 155     TA1     BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 167     MSGHAN  BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 168  (S)SEMG    BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG    56      ELTPRT  BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG    60      MDENZO  BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG    62      MDENZO  BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG    66      EMG     BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG    250     EMA     BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG    284     EMA     BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG    289     MDENZO  BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG    291  (S)XMTRXIN BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG    301     MGEN    BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG    319  (S)SEMG1   BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG1   16      VECPLOT BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG1   17      OFP     BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG1   38   (S)SEDAMP  BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SEMG    322     PROJVER BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 180     MSGHAN  BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 181     MSGHAN  BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 182  (S)SESUM   BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 281     VECPLOT BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 335  (S)SELA1   BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 389     MSGHAN  BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 392  (S)SELG    BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SELG    31      SSG1    BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    SELG    113     VECPLOT BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 393     MSGHAN  BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 394  (S)SESUM   BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 417  (S)SELA1   BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1A 418  (S)SELA1   BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1DR490     BCDR    BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1DR500     PVT     BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1DR510  (S)PMLUSET BEGN    
+ 23:40:08     0:01       41.0         0.0         0.4        0.0    PHASE1DR577  (S)PHASE1B BEGN    
+ 23:40:08     0:01       42.0         1.0         0.4        0.0    PHASE1B 34   (S)SEKR0   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKR0   92      VECPLOT BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKR0   104     GPSP    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 63   (S)SEKMR   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKMR   15   (S)PMLUSET BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKMR   31   (S)SEKR    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKR    15   (S)PMLUSET BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKR    18      UPARTN  BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKR    21      VECPLOT BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKR    142  (S)SESUM   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKMR   32   (S)SESUM   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKMR   136  (S)SELA1   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKMR   137  (S)SELA1   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKMR   138  (S)SELA1   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 64   (S)PMLUSET BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 321  (S)SEGOA   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 354  (S)SELR    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SELR    104     SSG2    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SELR    105     SSG2    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 356  (S)SESUM   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 741     SSG2    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 742     SSG2    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 743     SSG2    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 890  (S)SEGOA   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 891     MATREDU BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 898     TRNSP   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 899     ADD5    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 900     UPARTN  BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 992  (S)SEGOA   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1B 993     SSG2    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1DR817     BCDR    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC207     BCDR    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC208     PVT     BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC218  (S)PMLUSET BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC230  (S)PHASE1C BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1C 19      MATMOD  BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1C 48   (S)SEKRRS  BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SEKRRS  79      DCMP    BEGN    
+ *** USER INFORMATION MESSAGE 4157 (DFMSYM)
+     PARAMETERS FOR SPARSE DECOMPOSITION OF DATA BLOCK  KLL     ( TYPE=RDP ) FOLLOW
+                      MATRIX SIZE =       660 ROWS             NUMBER OF NONZEROES =      6333 TERMS
+           NUMBER OF ZERO COLUMNS =         0        NUMBER OF ZERO DIAGONAL TERMS =         0
+           ELIMINATION TREE DEPTH =       117
+                CPU TIME ESTIMATE =         0 SEC                I/O TIME ESTIMATE =         0 SEC
+       MINIMUM MEMORY REQUIREMENT =        13 K WORDS             MEMORY AVAILABLE =     22795 K WORDS
+     MEMORY REQR'D TO AVOID SPILL =        46 K WORDS         MEMORY USED BY BEND  =        14 K WORDS
+     EST. INTEGER WORDS IN FACTOR =        12 K WORDS           EST. NONZERO TERMS =        21 K TERMS
+     ESTIMATED MAXIMUM FRONT SIZE =        51 TERMS                 RANK OF UPDATE =        64
+ *** USER INFORMATION MESSAGE 6439 (DFMSA)
+     ACTUAL MEMORY AND DISK SPACE REQUIREMENTS FOR SPARSE SYM. DECOMPOSITION
+        SPARSE DECOMP MEMORY USED =        45 K WORDS           MAXIMUM FRONT SIZE =        51 TERMS  
+          INTEGER WORDS IN FACTOR =         3 K WORDS      NONZERO TERMS IN FACTOR =        21 K TERMS
+   SPARSE DECOMP SUGGESTED MEMORY =        90 K WORDS
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1C 52   (S)SESUM   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1C 61   (S)SESUM   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1C 65   (S)SELRRS  BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    PHASE1C 66   (S)SESUM   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC246  (S)STATRS  BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    STATRS  110     MSGHAN  BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    STATRS  119     SSG3    BEGN    
+ *** USER INFORMATION MESSAGE 4153 (DFNSB)
+     FBS METHOD S2 TIME ESTIMATE TO FORM ULX      - CPU=     0, I/O=     0, TOTAL=     0, PASSES=   1
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    STATRS  140     MSGHAN  BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC365     PVT     BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC366     APPEND  BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC367     PVT     BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC369     PVT     BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC405     COPY    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC414     BCDR    BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC415  (S)SESUM   BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SESTATIC429  (S)SUPER3  BEGN    
+ 23:40:08     0:01       42.0         0.0         0.4        0.0    SUPER3  227     SEP4    BEGN    
+ 23:40:08     0:01       43.0         1.0         0.4        0.0    SUPER3  362     SEDRDR  BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0                            
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  381     PVT     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  393     SEDR    BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  455     PVT     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  543  (S)DBSETOFFBEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  559     PVT     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  561     PVT     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  589     LCGEN   BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  640     DTIIN   BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  668  (S)PBULK   BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  669  (S)PBULK   BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  670  (S)PBULK   BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  671  (S)PBULK   BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  672  (S)PBULK   BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  723  (S)SEDISP  BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDISP  117     BCDR    BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDISP  118     PVT     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDISP  278  (S)SEGOA   BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDISP  322     SDR1    BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDISP  444     BCDR    BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDISP  457     COPY    BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDISP  458     COPY    BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDISP  459     COPY    BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDISP  475     COPY    BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDISP  793  (S)SESUM   BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  752     PVT     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  1201    SDR2    BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  1219    DBC     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  1249    ADD5    BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  1252    MATMOD  BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  1260    MODCASE BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SUPER3  1288 (S)SEDRCVR BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDRCVR 104     VECPLOT BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDRCVR 226  (S)TESTBIT BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDRCVR 236  (S)TESTBIT BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDRCVR 246  (S)TESTBIT BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDRCVR 332     SDR2    BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDRCVR 333     OFP     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDRCVR 514     SDRX    BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDRCVR 1040    OFP     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDRCVR 1050    OFP     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.4        0.0    SEDRCVR 1053    OFP     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.1    SEDRCVR 1057    OFP     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    SEDRCVR 1058    OFP     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    SEDRCVR 1067    OFP     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    SEDRCVR 1144    OFP     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    SEDRCVR 1186    DBC     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    SEDRCVR 1187    DBC     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    SEDRCVR 1188    DBC     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    SEDRCVR 1189    DBC     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    SEDRCVR 1191    DBC     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    SEDRCVR 1192    DBC     BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    SESTATIC510  (S)PRTSUM  BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    PRTSUM  40      PROJVER BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    PRTSUM  41      DBDICT  BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    PRTSUM  42      PRTPARM BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    PRTSUM  48   (S)TESTBIT BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    SESTATIC511     MSGHAN  BEGN    
+ 23:40:08     0:01       43.0         0.0         0.5        0.0    SESTATIC513     EXIT    BEGN    
+
+*** SUMMARY OF COMPONENT SERVICES USAGE ACTIVITY ***
+
+           SERVICE                         LOAD  IMPLEMENTATION    GENERIC             COMPONENT  
+            NAME                           COUNT    LANGUAGE     LIBRARY NAME         LIBRARY NAME 
+
+SCA.Framework.ErrorPolicyManager             1       C++         SCAKernel            SCAKernel                                 
+SCA.Framework.Logger                         1       C++         SCAKernel            SCAKernel                                 
+SCA.Framework.MessageDispatcher              45      C++         SCA/...spatcher_15_4 c:/m...amework/MessageDispatcher_15_4.dll 
+SCA.Framework.ResourceManager                1       C++         SCAKernel            SCAKernel                                 
+SCA.Framework.SecurityManager                1       C++         SCAKernel            SCAKernel                                 
+SCA.Framework.ServiceManager                 17      C++         SCAKernel            SCAKernel                                 
+SCA.Framework.SharedLibraryManager           14      C++         SCAKernel            SCAKernel                                 
+SCA.Framework.TextTranslation                3       C++         SCAKernel            SCAKernel                                 
+SCA.MDSolver.Io.AccessAccess                 17      C++         SCA/...essAccess_6_0 c:/m...A/MDSolver/Io/AccessAccess_6_0.dll 
+SCA.MDSolver.Io.UtilAccess                   6       C++         SCA/...tilAccess_6_0 c:/m...SCA/MDSolver/Io/UtilAccess_6_0.dll 
+SCA.MDSolver.Obj.DataAccess                  28      C++         SCA/...ataAccess_6_0 c:/m...CA/MDSolver/Obj/DataAccess_6_0.dll 
+SCA.MDSolver.Obj.FileAccess                  5       C++         SCA/...ileAccess_6_0 c:/m...CA/MDSolver/Obj/FileAccess_6_0.dll 
+SCA.MDSolver.Obj.InputFile                   1       C++         SCA/...InputFile_6_0 c:/m...SCA/MDSolver/Obj/InputFile_6_0.dll 
+SCA.MDSolver.System.MemoryManager            2       C++         SCA/...ryManager_6_0 c:/m...olver/System/MemoryManager_6_0.dll 
+SCA.MDSolver.System.PrintServer              14      C++         SCA/...intServer_6_0 c:/m...DSolver/System/PrintServer_6_0.dll 
+SCA.MDSolver.Util.DML                        1       C++         SCA/.../Util/Dml_6_0 c:/m.../lib/SCA/MDSolver/Util/Dml_6_0.dll 
+SCA.MDSolver.Util.QueryAccess                3       C++         SCA/...eryAccess_6_0 c:/m.../MDSolver/Util/QueryAccess_6_0.dll 
+SCA.MXP.MXPDOMParser                         1       C++         SCA/MXP_15_4         c:/m...20140/win64i4/lib/SCA/MXP_15_4.dll 
+SCA.Util.SystemUtils                         2       C++         SCA/...temUtils_15_4 c:/m.../lib/SCA/Util/SystemUtils_15_4.dll 
+
+ *** TOTAL MEMORY AND DISK USAGE STATISTICS ***
+
+ +---------- SPARSE SOLUTION MODULES -----------+         +------------- MAXIMUM DISK USAGE -------------+
+    HIWATER               SUB_DMAP        DMAP               HIWATER               SUB_DMAP        DMAP
+    (WORDS)       DAY_TIME     NAME      MODULE                 (MB)   DAY_TIME      NAME         MODULE
+        3465171   23:40:08    SEKRRS     79  DCMP             14.125   23:40:08    SESTATIC  513  EXIT    
+
+
+ *** DATABASE USAGE STATISTICS ***
+ 
+ +---------------- LOGICAL DBSETS ----------------+   +------------------------------ DBSET FILES -----------------------------+
+  DBSET     ALLOCATED  BLOCKSIZE       USED   USED     FILE      ALLOCATED  ALLOCATED    HIWATER       HIWATER  I/O TRANSFERRED
+             (BLOCKS)    (WORDS)   (BLOCKS)      %                (BLOCKS)       (GB)   (BLOCKS)          (GB)             (GB)
+ 
+  MASTER         5000       8192         88   1.76     MASTER         5000       0.15         93         0.003            0.005
+  DBALL        250000       8192          4   0.00     DBALL        250000       7.63          4         0.000            0.000
+  OBJSCR         5000       8192        364   7.28     OBJSCR         5000       0.15        364         0.011            0.014
+  SCRATCH      500100       8192         15   0.00    (MEMFILE         100       0.00        100         0.003            0.000)
+                                                       SCRATCH      250000       7.63          8         0.000            0.000
+                                                       SCR300       250000       7.63         25         0.001            0.000
+                                                                                                                 ==============
+                                                                                                          TOTAL:          0.020
+ 
+ *** BUFFER POOL AND SCRATCH 300 USAGE STATISTICS ***
+ 
+ +----------------- BUFFER POOL -----------------+      +-------------------------- SCRATCH 300 --------------------------+ 
+   OPTION        BLOCKS      BLOCKS      BLOCKS           OPTION    HIWATER               SUB_DMAP        DMAP     OPN/CLS
+  SELECTED     ALLOCATED     REUSED     RELEASED         SELECTED  (BLOCKS)   DAY_TIME      NAME         MODULE    COUNTER
+   BPOOL4           150       26964        1267              2          25    23:40:08    SEDRCVR   332  SDR2          0
+
+
+ *** SUMMARY OF PHYSICAL FILE I/O ACTIVITY ***
+
+ ASSIGNED PHYSICAL FILE NAME                                   RECL (BYTES)  READ/WRITE COUNTS   WSIZE  (WNUM)  MAP-I/O CNT
+ ------------------------------------------------------------  -----------  -------------------  -------------  -----------
+ c:/scratch/plate_fem.T1972_7.SCRATCH                                32768          0/1             128KB ( 4)            1 (M)
+ c:/scratch/plate_fem.T1972_7.OBJSCR                                 32768        104/368           128KB ( 4)          154 (M)
+ c:/scratch/plate_fem.T1972_7.MASTER                                 32768         60/96            128KB ( 4)           47 (M)
+ c:/scratch/plate_fem.T1972_7.DBALL                                  32768          3/7             128KB ( 4)            1 (M)
+ c:/scratch/plate_fem.T1972_7.SCR300                                 32768          0/1             128KB ( 4)            1 (M)
+ c:/msc.software/.../nastran/msc20140/win64i4/SSS.MASTERA            32768         92/0            N/A            N/A          
+ c:/msc.software/.../2014/nastran/msc20140/win64i4/SSS.MSCOBJ        32768        671/0            N/A            N/A          
+ 
+
+ ASSIGNED PHYSICAL FILE NAME            FORM    RECL (BYTES) SIZE (BLOCKS) FLAGS   READ/WRITE COUNTS   WSIZE  (WNUM)  MAP-I/O CNT
+ -------------------------------------  ------  -----------  ------------  -----  -------------------  -------------  -----------
+ ./plate_fem.xdb                        UNFMTD         4096           105  M            119/141           128KB ( 4)           21 (M)
+
+    FLAG VALUES ARE --
+      M   FILE MAPPING USED TO PROCESS FILE
+      R   FILE BEING ACCESSED IN 'RAW' MODE
+ 

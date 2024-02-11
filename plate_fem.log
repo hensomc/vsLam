@@ -1,0 +1,112 @@
+MSC Nastran V2014.0 (Intel Windows 7 Professional 6.1 7601) Control File: 
+----------------------------------------------------------------- 
+Nastran BUFFSIZE=8193 $(c:/msc.software/msc_nastran_student_edition/2014/nastran/conf/nast20140.rcf[2])
+JID='C:\Users\hensomc\Documents\MATLAB\vs_lam\vs_lam_working\plate_fem.bdf'
+OUT='./plate_fem'
+MEM=26214400      $ WORDS
+MACH='Intel'
+OPER='Windows 7 Professional'
+OSV='6.1 7601'
+MODEL='P5-4/4715 (hensomc-HP)'
+NPROC='12'
+CONFIG=15
+NPROC=12
+symbol=DELDIR='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/nast/del' $(program default)
+symbol=DEMODIR='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/nast/demo' $(program default)
+symbol=SSSALTERDIR='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/nast/sssalter' $(program default)
+symbol=TPLDIR='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/nast/tpl' $(program default)
+SDIR='c:/scratch/plate_fem.T1972_7'
+DBS='c:/scratch/plate_fem.T1972_7'
+SCR='yes'
+SMEM=100
+BPOOL=150
+NEWDEL='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/win64i4/SSS'
+DEL='MSCDEF'
+DML=MSCDEF
+SDL=MSCDEF
+AUTH='EDU'
+AUTHQUE=20
+MSGCAT='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/win64i4/analysis.msg'
+MSGDEST='f06'
+PROG=EDU
+NEWS='c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/nast/news.txt'
+----------------------------------------------------------------- 
+MSC_ISHELLPATH=c:\users\hensomc\documents\matlab\vs_lam\vs_lam_working 
+MSC_JIDPATH= 
+PATH=c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\win64i4\nCode\bin;c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\win64i4\nvidia;c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\win64i4\lib;c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\win64i4;C:\Program Files\MATLAB\R2014a\bin\win64;C:\Perl64\site\bin;C:\Perl64\bin;C:\MSC.Software\MSC_Nastran_Student_Edition\2014\Patran\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\hensomc\Anaconda3;C:\Users\hensomc\Anaconda3\Scripts;C:\Users\hensomc\Anaconda3\Library\bin 
+SCA_SERVICE_CATALOG=c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\res\SCAServiceCatalog.xml 
+SCA_RESOURCE_DIR=c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\res 
+Cmd Line:    C:\MSC.Software\MSC_Nastran_Student_Edition\2014\Nastran\msc20140\win64i4\nastran.exe plate_fem.bdf old=no scr=yes 
+Current Dir: C:\Users\hensomc\Documents\MATLAB\vs_lam\vs_lam_working 
+Time Cmd:    c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\win64i4\msctime 
+Executable:  c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\win64i4\analysis.exe 
+Arch= Kywd:  [Not specified]  
+MSC_MSG:     stderr  
+FPE:         yes  
+----------------------------------------------------------------- 
+Current resource limits:
+ Physical memory:                    12271 MB
+ Physical memory available:           8888 MB
+ Paging file size:                   24540 MB
+ Paging file size available:         19506 MB
+ Virtual memory:                   8388607 MB
+ Virtual memory available:         8388549 MB
+----------------------------------------------------------------- 
+System configuration:
+ Hostname:         hensomc-HP
+ Architecture:     win64i4
+ Platform:         Intel Windows 7 Professional 6.1 7601 (Windows Compute Cluster)
+ Model:            P5-4/4715
+ Clock freq.:      4715 MHz
+ Number of CPUs:   12
+ Executable:       standard
+ Raw model ID:     15
+ Config number:    15
+ Physical memory:  12271 MB
+ Virtual memory:   24540 MB
+ Numeric format:   32-bit little-endian IEEE.
+ Bytes per word:   4
+ Disk block size:  512 bytes (128 words)
+ Remote shell cmd: "c:/msc.software/msc_nastran_student_edition/2014/nastran/msc20140/win64i4/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
+                   <ccs_cmd> (Windows CCS nodes)
+----------------------------------------------------------------- 
+MSC Nastran started  Wed Aug 10 23:40:07 CDT 2016 
+ 23:40:07  Beginning Analysis
+SCA Kernel 15.4.267564 successfully initialized
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\win64i4\libimalloc.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\win64i4\mkl_core.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\win64i4\mkl_intel_thread.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\win64i4\mkl_rt.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran_student_edition\2014\nastran\msc20140\win64i4\MSCblas.dll" has been loaded.
+
+ 23:40:07  MSC Authorization Information - Checkout Successful (1016, 0)
+ 23:40:07  -------------------------------------------------------------
+ 23:40:07  Acquired 1 license for Student Edition Nastran
+
+
+Beginning bulk data processing using the IFPStar component.
+For more information on IFPStar, please see KB article KB8019200
+on our support pages, at http://simcompanion.mscsoftware.com.
+
+ 23:40:08  263 records read from JID file "C:\Users\hensomc\Documents\MATLAB\vs_lam\vs_lam_working\plate_fem.bdf"
+
+Processing of bulk data entries is complete.
+
+ 23:40:08  Analysis started.
+ 23:40:08  Geometry access/verification to CAD part initiated (if needed).
+ 23:40:08  Geometry access/verification to CAD part successfully completed (if needed).
+ 23:40:08  Finite element model generation started.
+ 23:40:08  Finite element model generated 726 degrees of freedom.
+ 23:40:08  Finite element model generation successfully completed.
+ 23:40:08  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:40:08  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:40:08  Solution of the system equations for linear statics started.
+ 23:40:08  Solution of the system equations for linear statics successfully completed.
+ 23:40:08  Linear static analysis completed.
+ 23:40:08  13 records read from JID file "C:\Users\hensomc\Documents\MATLAB\vs_lam\vs_lam_working\plate_fem.bdf"
+ 23:40:08  NSEXIT: EXIT(0)
+ 23:40:08  Analysis complete  0
+Real:        0.932 seconds ( 0:00:00.932)
+User:        0.452 seconds ( 0:00:00.452)
+Sys:         0.343 seconds ( 0:00:00.343)
+MSC Nastran finished Wed Aug 10 23:40:08 CDT 2016 
